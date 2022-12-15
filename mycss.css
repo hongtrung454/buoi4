@@ -1,0 +1,288 @@
+*
+{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    background-color: #FFF;
+    font-weight: 400;
+    font-style: normal;
+    color: #373737;
+    font-size: 14px;
+    margin: 0;
+}
+div {
+    display: block;
+}
+.container
+{
+    width: 100vw;
+    height:auto;
+}
+nav.top
+{
+    width:auto;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+i{
+    color: #FFF;
+    width:30px;
+    height:30px;
+    border-radius: 15px;
+    background-color: black;
+    font-size: 2.5em;
+    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i.fa-facebook
+{
+    color: #1877F2;
+    background-color: #FFF;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+i.fa-magnifying-glass
+{
+    font-size: 1.5em;
+    width: 2em;
+    height:2em;
+    border-radius: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#373737;
+    background-color: rgb(220, 213, 213);
+}
+.icon2 {
+    color:#8f8c8cf5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.icon3
+{
+    color:#8f8c8cf5;
+    display: flex;
+  
+    align-items: center;
+}
+i.fa-house
+{
+    color:#8f8c8cf5;
+    margin: 0 3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+i.fa-radio
+{
+    color:#8f8c8cf5;
+    margin: 0 3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #FFF;
+}
+i.fa-store
+{
+    color:#8f8c8cf5;
+    margin: 0 3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #FFF;
+}
+i.fa-grip-dots
+{
+    background-color: #dedede;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 075em;
+    font-size: 2em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin: 0 5px;
+}
+i.fa-facebook-messenger
+{
+    background-color: #dedede;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 075em;
+    font-size: 2em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin: 0 5px;
+}
+i.fa-bell
+{
+    background-color: #dedede;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 075em;
+    font-size: 2em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin: 0 5px;
+}
+img.miniAvatar
+{
+    width:50px;
+    height: auto;
+    border-radius: 25px;
+    margin-right: 2rem;
+    margin-left: 0.5rem;
+}
+.container2
+{
+    
+    background-image: linear-gradient(grey, white);
+    display: flex;
+    justify-content: center;
+    
+}
+.container3
+{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+    justify-content: center;
+    
+}
+.wall
+{
+    padding: 0 4rem 0 4rem;
+}
+.avatar
+{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+    border:#FFF;
+    border-style: solid;
+    margin-left: 6rem;
+    
+}
+.container4
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+   
+}
+.left {
+    display: flex;
+}
+.topleft{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.container4 .topleft .name
+{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 10px;
+}
+.bottomright
+{
+    display:flex;
+    align-items: flex-end;
+}
+.bottomright .addfriend
+{
+    /* font-size: 1.5rem;
+    width: 6rem;
+    height:2rem;
+    background-color: #969595;
+    border-radius: 0.5rem; */
+    display: flex;
+    justify-content: flex-start;
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #e3e3e3;
+    border-radius: 0.5rem;
+    margin: 0 30px;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+.bottomright .message
+{
+    /* width: 6rem;
+    height:2rem;
+    background-color: #2652d7;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    display : flex;
+    justify-content: flex-start;
+    padding-left: 3px; */
+    width: 7rem;
+    height:2.5rem;
+    background-color: #2652d7;
+    display : flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 50px;
+    border-radius: 0.5rem;
+    
+
+}
+.fa-user-group
+{
+    background-color: #e3e3e3;
+    font-size: 1.5rem;
+    color:#000;
+}
+.bottomright .message .fa-facebook-messenger
+{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background-color: #2652d7;
+    margin-left: 0rem;
+
+}
+
+.bottomright .text
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+.bottomright .text2
+{
+    color: #FFF;
+}
